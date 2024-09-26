@@ -11,3 +11,7 @@ Dinámica de código facilito, donde se hace un ejemplo de CRUD sobre una base d
 
 - Solo tiene como modelo una tabla
   - `user`: contiene 3 campos: username, mail y un id (secuencia)
+
+- [Guía para Desarrollo de un CRUD utilizando JDBC tradicional.pdf](https://drive.google.com/file/d/1-fZveV0H0gDMTQw1QdVmAUimfPm555XC/view)
+- Si se quiere hacer con MySql aquí estaría una guía para bajarselo, solo es necesario cambiar el script para crear la tabla y el url para el driver de mysql
+- [Guia para instalar MySQL.pdf](https://drive.google.com/file/d/1VRtcoVcQTyesOLvaoDpCN1g8FZkjn4ci/view)
