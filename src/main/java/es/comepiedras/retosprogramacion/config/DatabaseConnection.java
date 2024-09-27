@@ -36,7 +36,7 @@ public class DatabaseConnection {
                 connection = DriverManager.getConnection(DatabaseConfig.URL, DatabaseConfig.USER, DatabaseConfig.PASSWORD);
             }
             else if(db == DATABASE_SUPEBASE) {
-                connection = DriverManager.getConnection(DatabaseConfig.URL_SUPABASE, DatabaseConfig.USER_SUPABASE, DatabaseConfig.PASSWORD_SUPERBASE);
+                connection = DriverManager.getConnection(DatabaseConfig.URL_SUPABASE, DatabaseConfig.USER_SUPABASE, DatabaseConfig.PASSWORD_SUPABASE);
             }
         } catch (SQLException e) {
             e.printStackTrace();
