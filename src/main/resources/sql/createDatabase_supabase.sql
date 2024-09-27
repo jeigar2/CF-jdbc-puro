@@ -1,0 +1,8 @@
+CREATE TABLE users (
+  id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  username TEXT,
+  email TEXT
+);
+
+ALTER TABLE public.users
+ADD CONSTRAINT unique_email UNIQUE (email);
